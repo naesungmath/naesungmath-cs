@@ -13,7 +13,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a+b</returns>
         public double plus(double a, double b)
         {
             return a + b;
@@ -23,7 +23,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a-b</returns>
         public double minus(double a, double b)
         {
             return a - b;
@@ -33,7 +33,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a*b</returns>
         public double multiply(double a, double b)
         {
             return a * b;
@@ -43,7 +43,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a/b</returns>
         public double divide(double a, double b)
         {
             return a / b;
@@ -53,7 +53,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a to the b power</returns>
         public double caret(double a, double b)
         {
             return (double)Math.Pow(a, b);
@@ -63,7 +63,7 @@ namespace naesungmathcs
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
-        /// <returns></returns>
+        /// <returns>a to the b power</returns>
         public double pow(double a, double b)
         {
             return (double)Math.Pow(a, b);
@@ -72,7 +72,7 @@ namespace naesungmathcs
         /// Square root of A
         /// </summary>
         /// <param name="a"></param>
-        /// <returns></returns>
+        /// <returns>square root of a</returns>
         public double sqrt(double a)
         {
             return (double)Math.Sqrt(a);
@@ -88,7 +88,7 @@ namespace naesungmathcs
         /// If the number is prime, return true.
         /// </summary>
         /// <param name="a"></param>
-        /// <returns></returns>
+        /// <returns>this number is prime number returns true</returns>
         public bool prime(double a)
         {
             if (a <= 1)
@@ -104,7 +104,7 @@ namespace naesungmathcs
         /// Convert degree to radian.
         /// </summary>
         /// <param name="a"></param>
-        /// <returns></returns>
+        /// <returns>radian</returns>
         public double radian(double a)
         {
             return 2 * Math.PI * a;
