@@ -1,0 +1,2 @@
+D:\코딩\Naesungmath_cs\naesungmathcs\obj\Debug\naesungmathcs.csprojAssemblyReference.cache
+D:\코딩\Naesungmath_cs\naesungmathcs\obj\Debug\naesungmathcs.csproj.CoreCompileInputs.cache
