@@ -9,7 +9,7 @@ namespace naesungmathcs
     public class calc
     {
         /// <summary>
-        /// A plus B
+        /// 0001 Plus
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -19,7 +19,7 @@ namespace naesungmathcs
             return a + b;
         }
         /// <summary>
-        /// A minus B
+        /// 0002 Minus
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -29,7 +29,7 @@ namespace naesungmathcs
             return a - b;
         }
         /// <summary>
-        /// A multiply B
+        /// 0003 Multiply
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -39,7 +39,7 @@ namespace naesungmathcs
             return a * b;
         }
         /// <summary>
-        /// A divide B
+        /// 0004 Divide
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -49,7 +49,7 @@ namespace naesungmathcs
             return a / b;
         }
         /// <summary>
-        /// A caret B
+        /// 0005 Caret
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -59,7 +59,7 @@ namespace naesungmathcs
             return (double)Math.Pow(a, b);
         }
         /// <summary>
-        /// A to the B power
+        /// 0006 Power
         /// </summary>
         /// <param name="a"></param>
         /// <param name="b"></param>
@@ -69,7 +69,7 @@ namespace naesungmathcs
             return (double)Math.Pow(a, b);
         }
         /// <summary>
-        /// Square root of A
+        /// 0007 Square root
         /// </summary>
         /// <param name="a"></param>
         /// <returns>square root of a</returns>
@@ -84,6 +84,7 @@ namespace naesungmathcs
             return r.Next();
         }
         /// <summary>
+        /// 0008 Prime
         /// Determine if this number is prime. 
         /// If the number is prime, return true.
         /// </summary>
@@ -101,6 +102,7 @@ namespace naesungmathcs
             return true;
         }
         /// <summary>
+        /// 0009 DegtoRad
         /// Convert degree to radian.
         /// </summary>
         /// <param name="a"></param>
